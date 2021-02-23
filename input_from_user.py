@@ -1,5 +1,5 @@
 from numpy import random
 
-def Generating_a_random_number():
-  x = random.randint(9)
+def input_from_user():
+  x = input("Enter a number: ")
   return x
